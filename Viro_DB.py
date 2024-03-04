@@ -14,7 +14,7 @@ st.set_page_config(page_title=page_title, page_icon=page_icon, layout=layout)
 # Título de la página
 st.title(page_title + " " + page_icon)
 
-BD = pd.read_csv("C:\\Users\\micmg\\Documents\\Proyecto Base de Datos\\Capacidad Diagnostica Viro.csv", encoding='ISO-8859-1')
+BD = pd.read_csv("https://github.com/ramsna/diagnostico-viro-mgap/blob/main/Capacidad%20Diagnostica%20Viro.csv", encoding='ISO-8859-1')
 print(BD.head())
 
 
